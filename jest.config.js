@@ -1,0 +1,18 @@
+/** @type {import('jest').Config} */
+const config = {
+  testEnvironment: "jsdom",
+  collectCoverage: true,
+  coverageDirectory: "coverage",
+  preset: "ts-jest",
+  moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
+
+  transform: {
+    "^.+\\.(ts|tsx|js|jsx)$": "babel-jest", // Altere para babel-jest para JSX e TSX
+  },
+
+  testMatch: ["**/__tests__/**/*.[jt]s?(x)", "**/?(*.)+(spec|test).[tj]s?(x)"],
+  testPathIgnorePatterns: ["/node_modules/", "/.next/"],
+};
+
+
+module.exports = config;
