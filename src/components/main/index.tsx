@@ -1,7 +1,9 @@
+import * as S from "./styles";
+
 export const Main = () => {
   return (
-    <main>
+    <S.Wrapper>
       <h1>deu</h1>
-    </main>
+    </S.Wrapper>
   );
 };
