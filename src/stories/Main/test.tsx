@@ -1,7 +1,7 @@
 import { render, screen } from "@testing-library/react";
 import "jest-styled-components";
 import "@testing-library/jest-dom";
-import { Main } from "./index";
+import { Main } from "./Main";
 
 describe("<Main />", () => {
   it("renderizou a main", () => {

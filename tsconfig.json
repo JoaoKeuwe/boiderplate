@@ -30,6 +30,6 @@
     ".next/types/**/*.ts",
     "src/test/sum.test.ts",
     "src/test/sum.ts"
-, "next.config.js"  ],
+, "next.config.js", "plopfile.js"  ],
   "exclude": ["node_modules"]
 }
