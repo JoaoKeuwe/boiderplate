@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as S from "./style";
 
 export const Main = ({ title, p }: any) => {

@@ -8,7 +8,8 @@ const config = {
     "!src/app/**",
     "!src/lib/registry.tsx",
     "!src/types/**",
-    "!src/styles/**"
+    "!src/styles/**",
+    "!src/stories/**",
   ],
   preset: "ts-jest",
   moduleFileExtensions: ["ts", "tsx", "js", "jsx", "json", "node"],
